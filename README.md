@@ -10,3 +10,25 @@ WaveVolume is a computer vision project that lets users control their system’s
 - **MediaPipe** – real-time hand landmark detection (powered by TensorFlow Lite)
 - **TensorFlow Lite** – backend model inference engine
 - **PyAutoGUI** – system volume control automation
+
+## Features
+
+- Real-time hand tracking using MediaPipe
+
+- Distance calculation between thumb and index finger
+
+- Dynamic volume control via PyAutoGUI
+
+- Cleanly exits when you click the esc button
+
+## How It Works
+
+- Capture webcam input using OpenCV.
+
+- Detect hand landmarks with MediaPipe’s Hands model.
+
+- Measure the distance between the index finger and thumb tips.
+
+- If the fingers are far apart, volume increases and if close together, volume decreases.
+
+  Pressing X or closing the window stops the program safely.
