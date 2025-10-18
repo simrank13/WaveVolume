@@ -31,4 +31,16 @@ WaveVolume is a computer vision project that lets users control their system’s
 
 - If the fingers are far apart, volume increases and if close together, volume decreases.
 
-  Pressing X or closing the window stops the program safely.
+
+## Installation
+- Clone the repository:
+  git clone https://github.com/simrank13/WaveVolume.git
+  cd WaveVolume
+  pip install opencv-python mediapipe pyautogui
+- python volume_control_python.py
+
+
+
+
+
+
